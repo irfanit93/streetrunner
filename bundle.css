@@ -1,0 +1,30 @@
+.players
+{
+border:1px solid blue;
+padding:1%;
+margin:1%;
+}
+.player
+{
+border:1px solid green;
+padding:3%;
+margin-top:1%;
+margin-bottom:1%;
+}
+.obstacle
+{
+border:1px solid brown;
+padding:3%;
+margin-top:1%;
+margin-bottom:1%;
+}
+.obstacles
+{
+border:1px solid red;
+padding:1%;
+margin:1%;
+}
+.ground
+{
+border:1px solid lime;
+}
