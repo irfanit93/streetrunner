@@ -1,28 +1,31 @@
 .players
 {
 border:1px solid blue;
-padding:1%;
+padding:10%;
 margin:1%;
+position:relative;
 }
 .player
 {
 border:1px solid green;
-padding:3%;
-margin-top:1%;
-margin-bottom:1%;
+position:absolute;
+top:0px;
+left:0px;
+overflow:hidden;
 }
 .obstacle
 {
 border:1px solid brown;
-padding:3%;
-margin-top:1%;
-margin-bottom:1%;
+position:absolute;
+top:0px;
+left:0px;
 }
 .obstacles
 {
 border:1px solid red;
-padding:1%;
+padding:10%;
 margin:1%;
+position:relative;
 }
 .ground
 {

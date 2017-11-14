@@ -1,6 +1,15 @@
 import React from 'react';
-function Obstacle(props)
+class Obstacle extends React.Component
 {
-return (<div className="obstacle">Obstacle Name: {props.name}</div>);
+constructor(props)
+{
+super(props);
+this.state={topPos:props.topPos,leftPos:props.leftPos};
+}
+render()
+{
+let move={top:this.state.topPos,left:this.state.leftPos};
+return (<div className="obstacle" style={move}>Obstacle Name: {this.props.name}</div>);
+}
 }
 export default Obstacle;
